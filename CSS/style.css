@@ -1,0 +1,14 @@
+body{
+     font-family: 'Lato', sans-serif;
+     margin-top: 30px;
+     margin-left: 30px;
+}
+
+body span{
+     border-bottom: 1px solid rgb(71, 89, 255);
+     line-height: 20px;
+     font-size: 12px;
+
+     display: flex;
+     flex-wrap: wrap;
+}

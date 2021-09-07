@@ -1,9 +1,12 @@
+
 /////////////////////////////////////////////////////////////////////////
 /////////////////////////////////////////////////////////////////////////
 
 function bonusOne(){
-
+     
      const divHost = document.querySelector('body')
+     const divider = document.createElement('hr')
+     const breakLine = document.createElement('br')
 
      // Loop para realizar as repetições.
      for(let i = 0; i < 20; i++){
@@ -15,6 +18,8 @@ function bonusOne(){
           rectangle.style.marginBottom = '5px'
 
           divHost.appendChild(rectangle)
+          divHost.appendChild(divider)
+          divHost.appendChild(breakLine)
      }
 }
 
@@ -26,6 +31,8 @@ bonusOne()
 function bonusTwo(){
 
      const divHost = document.querySelector('body')
+     const divider = document.createElement('hr')
+     const breakLine = document.createElement('br')
 
      // Loop para realizar as repetições.
      let minWidth = 105
@@ -41,6 +48,8 @@ function bonusTwo(){
           rectangle.style.marginBottom = '5px'
 
           divHost.appendChild(rectangle)
+          divHost.appendChild(divider)
+          divHost.appendChild(breakLine)
      }
 }
 
@@ -52,6 +61,8 @@ bonusTwo()
 function bonusThree(){
 
      const divHost = document.querySelector('body')
+     const divider = document.createElement('hr')
+     const breakLine = document.createElement('br')
 
      // Loop para realizar as repetições.
      for(let i = 0; i < sampleArray.length; i++){
@@ -63,6 +74,8 @@ function bonusThree(){
           rectangle.style.marginBottom = '5px'
 
           divHost.appendChild(rectangle)
+          divHost.appendChild(divider)
+          divHost.appendChild(breakLine)
      }
 }
 
@@ -74,12 +87,14 @@ bonusThree()
 function bonusFour(){
 
      const divHost = document.querySelector('body')
+     const divider = document.createElement('hr')
+     const breakLine = document.createElement('br')
 
      // Loop para realizar as repetições.
      for(let i = 0; i < 20; i++){
           const rectangle = document.createElement('div')
           rectangle.style.height = '20px'
-          rectangle.style.width = '100px'
+          rectangle.style.width = sampleArray[i] + 'px'
           rectangle.style.borderRadius = '5px'
           rectangle.style.marginBottom = '5px'
 
@@ -90,6 +105,8 @@ function bonusFour(){
           }
 
           divHost.appendChild(rectangle)
+          divHost.appendChild(divider)
+          divHost.appendChild(breakLine)
      }
 }
 
@@ -101,6 +118,8 @@ bonusFour()
 function bonusFive(){
 
      const divHost = document.querySelector('body')
+     const divider = document.createElement('hr')
+     const breakLine = document.createElement('br')
 
      // Loop para realizar as repetições.
      for(let i = 0; i < sampleArray.length; i++){
@@ -117,6 +136,8 @@ function bonusFive(){
           }
 
           divHost.appendChild(rectangle)
+          divHost.appendChild(divider)
+          divHost.appendChild(breakLine)
      }
 }
 

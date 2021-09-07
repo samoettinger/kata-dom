@@ -269,7 +269,7 @@ function showKata_13() {
 
     let newArray = []
     for(let i = 0; i < sampleArray.length; i++){
-        if(sampleArray[i] % 8 !== 0){
+        if(sampleArray[i] % 8 === 0){
             newArray.push(sampleArray[i])
         } 
     }
